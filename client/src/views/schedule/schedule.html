@@ -1,0 +1,16 @@
+<template>
+  <require from="./schedule-week"></require>
+  <schedule-week if.bind="weekSchedule" week-schedule.bind="weekSchedule"></schedule-week>
+  <ul class="pager">
+    <li if.bind="weekSchedule.previousWeek">
+      <a class="${router.isNavigating ? 'disabled' : ''}" route-href="route: week-schedule; params.bind: {week: weekSchedule.previousWeek}">
+        Previous
+      </a>
+    </li>
+    <li if.bind="weekSchedule.nextWeek">
+      <a class="${router.isNavigating ? 'disabled' : ''}" route-href="route: week-schedule; params.bind: {week: weekSchedule.nextWeek}">
+        Next
+      </a>
+    </li>
+  </ul>
+</template>

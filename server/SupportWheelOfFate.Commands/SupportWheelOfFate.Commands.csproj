@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="4.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SupportWheelOfFate.Common\SupportWheelOfFate.Common.csproj" />
+    <ProjectReference Include="..\SupportWheelOfFate.Database\SupportWheelOfFate.Database.csproj" />
+    <ProjectReference Include="..\SupportWheelOfFate.Domain\SupportWheelOfFate.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
