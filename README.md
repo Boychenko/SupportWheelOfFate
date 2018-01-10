@@ -8,3 +8,5 @@ I'd add CRUD endpoints for Engineers and Shifts in normal project.
 Just took it to try. For Azure I consider web jobs
 ## 4 Integration tests
 Removed from scope for now. 
+## 5 Aurelia
+I've took it to cut the time. Worked with it recently.
